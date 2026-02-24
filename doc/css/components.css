@@ -1,0 +1,18 @@
+/*
+ * Main Styles for py-postman docs
+ * Author: McSixDev (mcsixdev)
+ * Telegram: @McSixDev
+ * Last Update: 24.02.2026
+ */
+.glass-panel { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+html.dark .glass-panel { background: rgba(3, 7, 18, 0.7); }
+
+pre { margin: 0 !important; background: transparent !important; padding: 1.25rem !important; font-size: 0.875rem; line-height: 1.5; }
+.code-window { background: #0b1120; border: 1px solid #1e293b; border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 24px 38px 3px rgba(0, 0, 0, 0.14); overflow: hidden; position: relative; }
+
+.copy-btn { font-size: 0.75rem; font-weight: 500; color: #94a3b8; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 0.35rem 0.75rem; border-radius: 0.5rem; cursor: pointer; transition: all 0.2s; font-family: 'Inter', sans-serif; display: inline-flex; align-items: center; gap: 0.375rem; }
+.copy-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.copy-btn.copied { background: #10b981; color: #fff; border-color: #10b981; }
+
+code.inline { background: rgba(0, 0, 0, 0.05); padding: 0.2rem 0.4rem; border-radius: 0.375rem; color: #0f172a; font-family: 'JetBrains Mono', monospace; font-size: 0.8125rem; border: 1px solid rgba(0, 0, 0, 0.1); }
+html.dark code.inline { background: rgba(255, 255, 255, 0.05); color: #e2e8f0; border-color: rgba(255, 255, 255, 0.1); }
